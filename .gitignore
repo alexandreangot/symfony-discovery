@@ -50,3 +50,28 @@
 
 # Embedded web-server pid file
 /.web-server-pid
+
+# Symfony specific files/folders
+/var/
+/app/cache/
+/app/logs/
+/bin/
+/composer.lock
+!/.env
+
+# IDE/Editor specific files/folders
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*~
+
+# System files/folders
+.DS_Store
+Thumbs.db
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+/public/build/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
